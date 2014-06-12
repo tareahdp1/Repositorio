@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mod_crtl_proyecto>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+
+          <!-- Nombre del Módulo -->
+	<name>Control de proyectos</name>
+
+	<!-- Datos opcionales -->
+	<author>GrupoHDP</author>
+	<creationDate>Junio 2014</creationDate>
+	<copyright>Copyright Info</copyright>
+	<license>Licencia Info</license>
+	<authorEmail>Email</authorEmail>
+
+
+         <!-- Versión de desarrollo del módulo -->
+	<version>1.0.0</version>
+
+         <!-- Descripción opcional del módulo -->
+	<description>Inserción y control de proyectos</description>
+
+	<files>
+		<filename module="mod_ctrl_proyecto">mod_ctrl_proyecto.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>	
+		<filename>conexion.php</filename>			
+		<filename>mod_ctrl_proyecto.xml</filename>
+	</files>
+
+</extension>
